@@ -1,6 +1,10 @@
+html{
+  font-size: 20px;
+}
+
 body{
   font-family: "Arial", "Meiryo", sans-serif;
-  font-size: 20px;
+  /* font-size: 20px; bodyで設定せず、htmlで設定する */
   text-align: center;
 }
 
@@ -8,10 +12,10 @@ body{
   /* ここにGoogle Fontsを指定します */
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  /* font-weight: 400; この設定はデフォルト値が反映されなくなる為、不要 */
   font-style: normal;
 
-  font-size: 2em;
+  font-size: 2rem;
   letter-spacing: 1.2em;
   text-shadow: 1px 1px 2px gray;
   border-bottom: solid 3px rgb(115,115,114);
